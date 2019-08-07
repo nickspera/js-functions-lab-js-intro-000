@@ -4,9 +4,8 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  if (name.happyHolidaysTo('you'))
+  (name.happyHolidaysTo('you'))
   return ("Happy holidays, ${name}!")
- }
 }
 
 function happyHolidayTo(holiday, name) {
